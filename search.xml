@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>github push时提示Username for ‘https://github.com‘ 解决办法</title>
+      <link href="/Danyan.github.io/2023/11/04/github%20push/"/>
+      <url>/Danyan.github.io/2023/11/04/github%20push/</url>
+      
+        <content type="html"><![CDATA[<p>今天进行push的时候一直提醒我输入Username还有PassWord。<br>起初我以为Username是我github上的用户名，没想到竟是GitHub绑定的邮箱😓，这里真的好坑！</p><p>而PassWord也不是登录<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>的密码，而是一个token……</p><h2 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h2><ul><li><strong>Username是指完整的邮箱地址</strong></li><li><strong>Password是指Personal access tokens</strong><br>token获得方法<br><img src="https://www.freeimg.cn/i/2023/11/04/65451c2913b57.png" alt="输入图片描述"><br><img src="https://www.freeimg.cn/i/2023/11/04/65451c2938a4c.png" alt="输入图片描述"><img src="https://www.freeimg.cn/i/2023/11/04/65451c2c68d52.png" alt="输入图片描述"><br><strong>设置token的有效期，访问权限等</strong></li></ul><p>选择要授予此<code>令牌token</code>的<code>范围</code>或<code>权限</code>。</p><ul><li>要使用<code>token</code>从命令行访问仓库，请选择<code>repo</code>。</li><li>要使用<code>token</code>从命令行删除仓库，请选择<code>delete_repo</code></li><li>其他根据需要进行勾选</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客butterfly主题图库的创建</title>
       <link href="/Danyan.github.io/2023/11/03/butterfly%E9%AD%94%E6%94%B9%E4%B8%BB%E9%A2%98%E4%B8%80/"/>
       <url>/Danyan.github.io/2023/11/03/butterfly%E9%AD%94%E6%94%B9%E4%B8%BB%E9%A2%98%E4%B8%80/</url>
