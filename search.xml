@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>github图床创建方法</title>
+      <link href="/Danyan.github.io/2023/11/05/github%E5%9B%BE%E5%BA%8A/"/>
+      <url>/Danyan.github.io/2023/11/05/github%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>之前用的是第三方的图床，但是最近发现第三方的图床经常挂掉，所以就自己搭建一个图床，这里记录一下搭建过程。</p></div><h1 id="创建github仓库"><a href="#创建github仓库" class="headerlink" title="创建github仓库"></a>创建github仓库</h1><p>在github上创建一个仓库，仓库名随意，这里我创建的是<code>blog_img</code>。</p><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/16991859572981.png" alt="16991859572981.png"></p><hr><h1 id="创建存放图片的仓库"><a href="#创建存放图片的仓库" class="headerlink" title="创建存放图片的仓库"></a>创建存放图片的仓库</h1><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/16991859660192.png" alt="16991859660192.png"></p><hr><h1 id="生成token"><a href="#生成token" class="headerlink" title="生成token"></a>生成token</h1><p>【Settings 】→【Developer settings】→【Personal access tokens】→【generate new token】</p><p>然后按照下面的图片进行填写</p><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/16991859732993.png" alt="16991859732993.png"></p><div class="note info simple"><p>保存好token哦，等下还有用</p></div><hr><h1 id="uTool工具下载，并安装图床工具"><a href="#uTool工具下载，并安装图床工具" class="headerlink" title="uTool工具下载，并安装图床工具"></a>uTool工具下载，并安装图床工具</h1><p><code>uTool</code>我已经下载好了，没下载的到官网下载即可：uTools官网 - 新一代效率工具平台（<a href="https://u.tools/%EF%BC%89">https://u.tools/）</a></p><h2 id="安装图床工具"><a href="#安装图床工具" class="headerlink" title="安装图床工具"></a>安装图床工具</h2><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/1699186950297%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20231105202206.png" alt="1699186950297微信截图_20231105202206.png"></p><h2 id="配置图床"><a href="#配置图床" class="headerlink" title="配置图床"></a>配置图床</h2><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/16991859763084.png" alt="16991859763084.png"></p><hr><h1 id="上传图片"><a href="#上传图片" class="headerlink" title="上传图片"></a>上传图片</h1><div class="note success simple"><p>参照上面的配置，我们的图床就算是配置好了<br>接下来，我们上传一张图片试试，(●’◡’●)</p></div><p><img src="https://fastly.jsdelivr.net/gh/danyan102/blog_img@main/blog_img/1699187057021%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20231105202405.png" alt="1699187057021微信截图_20231105202405.png"><br>大功告成，图片上传成功 (●’◡’●)</p><div class="note warning simple"><ul><li>作为图床的仓库最好不能超过 1G，因为仓库超过 1G 后会有人工审核仓库内容。一旦发现用于图床可能会被删库也可能会被封号！！！所以建议在 1G 之前就按照上面步骤新建一个仓库</li><li>仓库是公开的，所以图片放上去要注意隐私问题，特别是单位的一些涉密资料</li><li>如果读者不差钱，直接购买各大产商的云对象存储即可，就不用这么来回折腾了，心累心累( •_•)&gt;⌐■-■</li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>github push时提示Username for ‘https://github.com‘ 解决办法</title>
       <link href="/Danyan.github.io/2023/11/04/github%20push/"/>
       <url>/Danyan.github.io/2023/11/04/github%20push/</url>
